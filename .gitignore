@@ -1,0 +1,33 @@
+# .NET
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+*.user
+.vs/
+
+# Node
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.tsbuildinfo
+
+# Local file storage (used when S3 is not configured)
+App_Data/
+**/App_Data/
+
+# Local database exports and credentials
+*.sql
+*.bacpac
+*.pem
+*.pfx
+*.key
